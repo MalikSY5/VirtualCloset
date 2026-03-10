@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.expo/
+
+# Environment — never commit secrets
+.env
+
+# Build outputs
+dist/
+build/
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# macOS
+.DS_Store
+*.pem
+
+# Local
+npm-debug.*
+yarn-debug.*
+yarn-error.*
